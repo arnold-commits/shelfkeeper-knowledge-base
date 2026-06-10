@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "shelfkeeper-knowledge-base.vercel.app" }],
+      "destination": "https://kb.arjebookkeeping.com/:path*",
+      "permanent": true
+    }
+  ]
+}
